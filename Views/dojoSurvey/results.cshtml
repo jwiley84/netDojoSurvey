@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="~/css/Survey.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<div id="wrapper">
+        <div class="boxy" id="label">
+            <h1>@ViewBag.Test</h1>
+            <p>Thanks for submitting this form!</p>
+        </div>
+        <div class="boxy" id="TD">
+            @{
+            string nameString = ViewBag.name;
+            string locString = ViewBag.loc;
+            string langString = ViewBag.lang;
+            string commentsString = ViewBag.comments;
+            }
+            <p>Submitted Information:</p> 
+            <p>Name: @nameString</p>
+            <p>Dojo Location: @locString</p>
+            <p>Preferred Language: @langString</p>
+            <p>Comments: @commentsString</p>
+            <button name="Back" href="index" value="Go Back">
+            
+        </div>
+    </div>

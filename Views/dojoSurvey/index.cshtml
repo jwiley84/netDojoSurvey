@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="~/css/Survey.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="boxy" id="label">
+            <p>It's so ugly</p>
+        </div>
+        <div class="boxy" id="TD">
+            <form action="method" method="post">
+                Your Name:<input type="text" name="name" placeholder="User Name">
+                <p><span class="label">Dojo Location</span>
+            <select name="loc">
+                <option value="SJ">San Jose</option>
+                <option value="Sea">Bellevue</option>
+                <option value="LA">Los Angeles</option>
+                <option value="Tulsa">Tulsa</option>
+                <option value="Dallas">Dallas</option>
+                <option value="Chicago">Chicago</option>
+                <option value="DC">DC</option>
+            </select>
+            <p></p>
+            <span class="label">Your Language</span>
+            <select name="lang">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="cursing">Profanity</option>
+                <option value="CHJ">Big 3</option>
+            </select>
+            <p></p>
+            <span class="label">Comments (optional):</span>
+            <textarea name="comments" id="" cols="50" rows="5"></textarea> 
+            <p><input name="submit" id="btn" type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

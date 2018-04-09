@@ -1,0 +1,36 @@
+body {
+    height: 1000px;
+    background: linear-gradient(to bottom right, green, black, green, purple)
+}
+
+#wrapper {
+    width: 970px;
+    margin: auto;
+}
+
+.boxy {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#TD {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    /* font-size: 48px; */
+}
+#label {
+    width: 35%;
+    margin: 20px auto;
+    border: 5px solid rgb(5, 43, 5);
+    border-radius: 5px;
+    text-align: center;
+}
+#btn {
+    margin: 25px 425px;
+    padding: 20px;
+    border: 5px solid rgb(5, 43, 5);
+    background-color: rgb(126, 160, 95);
+    color: darkgreen;
+    border-radius: 5px;
+}
